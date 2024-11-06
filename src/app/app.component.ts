@@ -12,8 +12,8 @@ import { CommonModule } from '@angular/common';
 export class AppComponent implements AfterViewInit {
   date: any;
   now: any;
-  startDate: any = new Date(2024, 6, 24);
-  targetDate: any = new Date(2024, 11, 23);
+  startDate: any = new Date(2024, 10, 2);
+  targetDate: any = new Date(2024, 11, 2);
   targetTime: any = this.targetDate.getTime();
   difference!: number;
   months: Array<string> = [
